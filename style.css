@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.336);
+  
+}
+h1{
+    color: rgb(50, 26, 235);
+    margin: 15px;
+}
+.container{
+    margin-top: 15%;
+display: flex;
+align-items:center ;
+justify-content: center;
+
+flex-direction: column;
+
+}
+textarea{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    /* width: 550px; */
+    font-size: 20px;
+    color: #fff;
+    background: gray;
+   
+}
+select,button{
+    border: none;
+    outline: none;
+    padding:  10px 20px ;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: gray;
+    font-size: 20px;
+    color: #fff;
+animation-duration: 0.2s;
+}
+button:hover{
+    background: sienna;
+    transform: scale(0.8 );
+}
